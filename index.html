@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="home">
+    <!--Nav-->
+    <nav class="navbar navbar-expand-md navbar-light .bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto"> <!-- ml-auto navigacija atskiria nuo logo-->
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link" href="services.html" target="_blank">Services</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Works</a>
+                    <a class="nav-link" href="#">Contacts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel-->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h1 class="display-3 d-flex justify-content-center"><span
+                        class="bg-light"> Good ideas comes <span class="text-uppercase">first</span></span></h1>
+            </div>
+            <div class="carousel-item">
+                <h1 class="display-3 h1-home d-flex justify-content-center"><span class="bg-light">lorem</span></span>
+                </h1>
+            </div>
+            <div class="carousel-item">
+                <h1 class="display-3 h1-home d-flex justify-content-center"><span class="bg-light"> Labas </span></h1>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div> <!--home uzdarymas-->
+<!--Services-->
+<div class="container services">
+    <div class="row text-center">
+        <div class="col-12 my-5 mb-5 pb-5">
+            <h1 class="display-4 pt-5 mb-2 text-white">Our services</h1>
+            <p class="services-p text-uppercase text-white font-weight-light">cras commodo mattis justo nec <span class="text-danger ">lobortis</span> . Nam ut lobortis, ullamcorper massa sit
+                amet</p>
+            <p class="services-p-small text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <!--Services cards-->
+    <div class="container ">
+        <div class="row">
+
+            <div class="card-services card col-md-3 mr-3 mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+                                                                          src="img/lightball.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-uppercase text-center text-white font-weight-light">Researching</h4>
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="card-services card col-md-3 mr-3 mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+                                                                          src="img/m wand.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-uppercase text-center text-white font-weight-light">Design</h4>
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="card-services card col-md-3 mr-3 mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img"
+                                                                          src="img/giars.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-uppercase text-center text-white font-weight-light">Development</h4>
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="card-services card col-md mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img"
+                                                                          src="img/rocket.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title text-uppercase text-center text-white font-weight-light">Launch</h4>
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                </div>
+            </div>
+
+        </div><!--cardu row uzdarymas-->
+
+    </div><!--cardu conteinerio uzdarymas-->
+</div><!--viso services uzdarymas-->
+<!--About-->
+<div class="container about">
+    <div class="row text-center">
+        <div class="col-12 my-5 mb-5">
+            <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">Who we are & what we do</h1>
+            <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <button type="button" class="btn btn-team btn-sm text-uppercase mt-4">Meet the team</button>
+        </div>
+    </div>
+    <!--Teams cards-->
+<div class="container">
+        <div class="row">
+            <div class="card col-md-3 mr-3 mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+                                                                          src="img/lightball.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-uppercase text-center text-white">Anton Petrov</p>
+                    <p class="card-text text-center text-success">General manager</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-md-3 mr-3 mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+                                                                          src="img/lightball.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-uppercase text-center text-white">Kirl Donchev</p>
+                    <p class="card-text text-center text-danger">Design Master</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-md-3 mr-3 mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+                                                                          src="img/lightball.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-uppercase text-center text-white">Ilian Bonev</p>
+                    <p class="card-text text-center text-success">Developer Ninja</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card col-md mb-2" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+                                                                          src="img/lightball.png" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-uppercase text-center text-white">Doni Stamov</p>
+                    <p class="card-text text-center text-success">SEO guru</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div> <!--teams row uzdarymas-->
+</div> <!--teams conteinerio uzdarymas-->
+</div><!--viso about uzdarymas-->
+<!--Work-->
+<div class="work">
+</div>
+<!--Contacts-->
+<div class="contacts">
+</div>
+<footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</footer>
+</body>
+</html>
