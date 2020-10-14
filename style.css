@@ -6,11 +6,12 @@ body{
     margin-bottom: 200px;
     opacity: 0.4;
 }
-.card-services {
-    background-color: #b24a50;
-}
+
 .services-img {
     width: 35%;
+}
+.user-img{
+    width: 50%;
 }
 .card-body {
     padding: 0.5rem;
@@ -18,7 +19,7 @@ body{
 .services-p{
     font-size: 1.25rem;
 }
-.services-p-small, about-p-small{
+.services-p-small, .about-p-small{
     font-size: 0.88rem;
 }
 .btn-team{
@@ -27,13 +28,26 @@ body{
 .fa{
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: 25%;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
 }
+.teams-card{
+    background: url("img/user-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-services{
+    background: url("img/services-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio-font-size{
+    font-size: 1rem;
+}
 
-/*backgrounds*/
+     /*main backgrounds*/
 .home {
     background: url("img/background1.png");
     background-repeat: no-repeat;

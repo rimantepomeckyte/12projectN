@@ -21,11 +21,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto"> <!-- ml-auto navigacija atskiria nuo logo-->
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="services.html" target="_blank">Services</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Works</a>
-                    <a class="nav-link" href="#">Contacts</a>
+                    <a class="nav-link active text-white font-weight-light" href="#">Home</a>
+                    <a class="nav-link text-white font-weight-light" href="services.html" target="_blank">Services</a>
+                    <a class="nav-link text-white font-weight-light" href="#">About</a>
+                    <a class="nav-link text-white font-weight-light" href="#">Works</a>
+                    <a class="nav-link text-white font-weight-light" href="#">Contacts</a>
                 </div>
             </div>
         </div>
@@ -62,6 +62,7 @@
 </div> <!--home uzdarymas-->
 <!--Services-->
 <div class="container services">
+    <div class="container">
     <div class="row text-center">
         <div class="col-12 my-5 mb-5 pb-5">
             <h1 class="display-4 pt-5 mb-2 text-white">Our services</h1>
@@ -72,12 +73,13 @@
                 ex ea commodo consequat.</p>
         </div>
     </div>
+    </div>
     <!--Services cards-->
-    <div class="container ">
-        <div class="row">
+    <div class="container">
+        <div class="row card-group">
 
-            <div class="card-services card col-md-3 mr-3 mb-2" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
+            <div class="card-services card col-md-3 mr-2 mb-2 ml-3 border-0" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2 "><img class="card-img-top services-img "
                                                                           src="img/lightball.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
@@ -88,7 +90,7 @@
                 </div>
             </div>
 
-            <div class="card-services card col-md-3 mr-3 mb-2" style="width: 18rem;">
+            <div class="card-services card col-md-3 mr-2 mb-2 ml-3 border-0" style="width: 18rem;">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
                                                                           src="img/m wand.png" alt="Card image cap">
                 </div>
@@ -100,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="card-services card col-md-3 mr-3 mb-2" style="width: 18rem;">
+            <div class="card-services card col-md-3 mr-2 mb-2 ml-3 border-0" style="width: 18rem;">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img"
                                                                           src="img/giars.png" alt="Card image cap">
                 </div>
@@ -112,8 +114,8 @@
                 </div>
             </div>
 
-            <div class="card-services card col-md mb-2" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img"
+            <div class="card-services card col-md mb-2 ml-3 border-0" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2" ><img class="card-img-top services-img"
                                                                           src="img/rocket.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
@@ -141,62 +143,145 @@
     </div>
     <!--Teams cards-->
 <div class="container">
-        <div class="row">
-            <div class="card col-md-3 mr-3 mb-2" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
-                                                                          src="img/lightball.png" alt="Card image cap">
+        <div class="row card-group">
+            <div class="card teams-card col-md-3 mr-3 mb-2 border-0" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
+                                                                          src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase ">Anton Petrov</p></div>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Anton Petrov</p></div>
                     <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">General manager</p></div>
-                    <div class="row mt-3"> <a href="#" class="col-md-3 bg-primary text-white mr-2 fa fa-facebook"></a>
-                    <a href="#" class="col-md-3 mr-2 bg-info text-white fa fa-twitter"></a>
-                    <a href="#" class="col-md-3 mr-2 bg-danger text-white fa fa-google"></a>
-                    <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
+                    <div class="row mt-3 card-group d-flex justify-content-around"> <a href="#" class="bg-primary text-white fa fa-facebook"></a>
+                    <a href="#" class="bg-info text-white fa fa-twitter"></a>
+                    <a href="#" class="bg-danger text-white fa fa-google"></a>
+                    <a href="#" class="bg-primary text-white fa fa-linkedin"></a></div>
                 </div>
             </div>
 
-            <div class="card col-md-3 mr-3 mb-2" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
-                                                                          src="img/lightball.png" alt="Card image cap">
+            <div class="card teams-card col-md-3 mr-3 mb-2 border-0" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
+                                                                          src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <p class="card-text text-uppercase text-center text-white">Kirl Donchev</p>
-                    <p class="card-text text-center text-danger">Design Master</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Kirl Donchev</p></div>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">Design Master</p></div>
+                    <div class="row mt-3 card-group"> <a href="#" class="col-md-3 bg-primary text-white fa fa-facebook"></a>
+                        <a href="#" class="col-md-3 bg-info text-white fa fa-twitter"></a>
+                        <a href="#" class="col-md-3 bg-danger text-white fa fa-google"></a>
+                        <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
                 </div>
             </div>
 
-            <div class="card col-md-3 mr-3 mb-2" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
-                                                                          src="img/lightball.png" alt="Card image cap">
+            <div class="card teams-card col-md-3 mr-3 mb-2 border-0" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
+                                                                          src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <p class="card-text text-uppercase text-center text-white">Ilian Bonev</p>
-                    <p class="card-text text-center text-success">Developer Ninja</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Ilian Bonev</p></div>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">Developer Ninja</p></div>
+                    <div class="row mt-3 card-group"> <a href="#" class="col-md-3 bg-primary text-white fa fa-facebook"></a>
+                        <a href="#" class="col-md-3 bg-info text-white fa fa-twitter"></a>
+                        <a href="#" class="col-md-3 bg-danger text-white fa fa-google"></a>
+                        <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
                 </div>
             </div>
 
-            <div class="card col-md mb-2" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
-                                                                          src="img/lightball.png" alt="Card image cap">
+            <div class="card teams-card col-md mb-2 border-0" style="width: 18rem;">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
+                                                                          src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <p class="card-text text-uppercase text-center text-white">Doni Stamov</p>
-                    <p class="card-text text-center text-success">SEO guru</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Doni Stamov</p></div>
+                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">SEO guru</p></div>
+                    <div class="row mt-3 card-group"> <a href="#" class="col-md-3 bg-primary text-white fa fa-facebook"></a>
+                        <a href="#" class="col-md-3 bg-info text-white fa fa-twitter"></a>
+                        <a href="#" class="col-md-3 bg-danger text-white fa fa-google"></a>
+                        <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
                 </div>
             </div>
         </div> <!--teams row uzdarymas-->
 </div> <!--teams conteinerio uzdarymas-->
 </div><!--viso about uzdarymas-->
 <!--Work-->
-<div class="work">
-</div>
+<div class="container work">
+    <div class="row text-center">
+        <div class="col-12 my-5 mb-5">
+            <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">Our Work</h1>
+            <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+    </div>
+    <!--Portfolio-->
+    <div class="container">
+
+        <ul class="list-inline row">
+            <li class="list-inline-item col-md">Portfolio</li>
+            <li class="list-inline-item portfolio-font-size col-md-1 ">All</li>
+            <li class="list-inline-item portfolio-font-size col-md-2">Photography</li>
+            <li class="list-inline-item portfolio-font-size col-md-2">Logo design</li>
+            <li class="list-inline-item portfolio-font-size col-md-2">Web design</li>
+        </ul>
+
+    </div>
+
+    <!--Gallery cards-->
+    <div class="container">
+    <div class="row card-group">
+        <div class="card col-md-3 mr-3 p-0 border-0 rounded">
+            <img class="card-img-top fotke" src="img/work1.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="card col-md-3 mr-3 p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work2.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="card col-md-3 mr-3 p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work3.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="card col-md p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work4.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="row card-group mt-3">
+        <div class="card col-md-3 mr-3 mb-2 p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work5.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="card col-md-3 mr-3 mb-2 p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work6.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="card col-md-3 mr-3 mb-2 p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work7.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+        <div class="card col-md mb-2 p-0 border-0 rounded">
+            <img class="card-img-top" src="img/work8.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+            </div>
+        </div>
+    </div>
+    </div><!--gallery cards container uzdarymas-->
+</div><!--viso work uzdarymas-->
 <!--Contacts-->
 <div class="contacts">
 </div>
