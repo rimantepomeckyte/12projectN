@@ -2,8 +2,8 @@ body{
     height: 100%;
 }
 .carousel-item {
-    margin-top: 180px;
-    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 230px;
     opacity: 0.4;
 }
 
@@ -25,28 +25,41 @@ body{
 .btn-team{
     background-color: #A1CA6C;
 }
-.fa{
-    padding: 20px;
-    font-size: 30px;
-    width: 25%;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
 .teams-card{
     background: url("img/user-background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .card-services{
     background: url("img/services-background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .portfolio-font-size{
     font-size: 1rem;
 }
 
+.map-container iframe{
+    width: 100%;
+}
+.contact-fonas{
+    background-color: #68A097;
+}
+
+.icon{
+    background-color: #82C8BD;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+}
+.fb-icon{
+    padding: 10px 15px;
+}
+.google-icon{
+    padding: 10px 8px;
+}
      /*main backgrounds*/
 .home {
     background: url("img/background1.png");

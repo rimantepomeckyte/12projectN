@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
-<div class="home">
+<div class="container home">
     <!--Nav-->
-    <nav class="navbar navbar-expand-md navbar-light .bg-transparent">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -21,8 +21,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto"> <!-- ml-auto navigacija atskiria nuo logo-->
-                    <a class="nav-link active text-white font-weight-light" href="#">Home</a>
-                    <a class="nav-link text-white font-weight-light" href="services.html" target="_blank">Services</a>
+                    <a class="nav-link active text-white font-weight-light" href="index.html">Home</a>
+                    <a class="nav-link text-white font-weight-light" href="#">Services</a>
                     <a class="nav-link text-white font-weight-light" href="#">About</a>
                     <a class="nav-link text-white font-weight-light" href="#">Works</a>
                     <a class="nav-link text-white font-weight-light" href="#">Contacts</a>
@@ -63,64 +63,71 @@
 <!--Services-->
 <div class="container services">
     <div class="container">
-    <div class="row text-center">
-        <div class="col-12 my-5 mb-5 pb-5">
-            <h1 class="display-4 pt-5 mb-2 text-white">Our services</h1>
-            <p class="services-p text-uppercase text-white font-weight-light">cras commodo mattis justo nec <span class="text-danger ">lobortis</span> . Nam ut lobortis, ullamcorper massa sit
-                amet</p>
-            <p class="services-p-small text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
+        <div class="row text-center">
+            <div class="col-12 my-5 mb-5 pb-2">
+                <h1 class="display-4 pt-5 mb-2 text-white">Our services</h1>
+                <p class="services-p text-uppercase text-white font-weight-light">cras commodo mattis justo nec <span
+                        class="text-danger ">lobortis</span> . Nam ut lobortis, ullamcorper massa sit
+                    amet</p>
+                <p class="services-p-small text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+            </div>
         </div>
-    </div>
     </div>
     <!--Services cards-->
     <div class="container">
-        <div class="row card-group">
+        <div class="row card-group mx-1 pb-5">
 
-            <div class="card-services card col-md-3 mr-2 mb-2 ml-3 border-0" style="width: 18rem;">
+            <div class="card-services card col-12 col-md-3 mr-sm-2 mb-2 border-0">
                 <div class="d-flex justify-content-center mt-4 mb-2 "><img class="card-img-top services-img "
-                                                                          src="img/lightball.png" alt="Card image cap">
+                                                                           src="img/lightball.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
                     <h4 class="card-title text-uppercase text-center text-white font-weight-light">Researching</h4>
-                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et
                         dolore magna aliqua.</p>
                 </div>
             </div>
 
-            <div class="card-services card col-md-3 mr-2 mb-2 ml-3 border-0" style="width: 18rem;">
+            <div class="card-services card col-12 col-md-3 mr-sm-2 mb-2 border-0">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img "
                                                                           src="img/m wand.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
                     <h4 class="card-title text-uppercase text-center text-white font-weight-light">Design</h4>
-                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et
                         dolore magna aliqua.</p>
                 </div>
             </div>
 
-            <div class="card-services card col-md-3 mr-2 mb-2 ml-3 border-0" style="width: 18rem;">
+            <div class="card-services card col-12 col-md-3 mr-sm-2 mb-2 border-0">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img"
                                                                           src="img/giars.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
                     <h4 class="card-title text-uppercase text-center text-white font-weight-light">Development</h4>
-                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et
                         dolore magna aliqua.</p>
                 </div>
             </div>
 
-            <div class="card-services card col-md mb-2 ml-3 border-0" style="width: 18rem;">
-                <div class="d-flex justify-content-center mt-4 mb-2" ><img class="card-img-top services-img"
+            <div class="card-services card col col-md mb-2 border-0">
+                <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top services-img"
                                                                           src="img/rocket.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
                     <h4 class="card-title text-uppercase text-center text-white font-weight-light">Launch</h4>
-                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    <p class="card-text services-p-small text-center text-white mt-4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et
                         dolore magna aliqua.</p>
                 </div>
@@ -131,159 +138,272 @@
     </div><!--cardu conteinerio uzdarymas-->
 </div><!--viso services uzdarymas-->
 <!--About-->
-<div class="container about">
-    <div class="row text-center">
-        <div class="col-12 my-5 mb-5">
-            <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">Who we are & what we do</h1>
-            <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-            <button type="button" class="btn btn-team btn-sm text-uppercase mt-4">Meet the team</button>
+<div class="about container">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 my-5 mb-5">
+                <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">Who we are & what we do</h1>
+                <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+                <button type="button" class="btn btn-team btn-sm text-uppercase mt-4">Meet the team</button>
+            </div>
         </div>
     </div>
     <!--Teams cards-->
-<div class="container">
-        <div class="row card-group">
-            <div class="card teams-card col-md-3 mr-3 mb-2 border-0" style="width: 18rem;">
+    <div class="container">
+        <div class="row card-group mx-1 pb-5">
+            <div class="card teams-card col-12 col-md-3 mr-sm-2 mb-2 border-0 pb-4" style="width: 18rem;">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
                                                                           src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Anton Petrov</p></div>
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">General manager</p></div>
-                    <div class="row mt-3 card-group d-flex justify-content-around"> <a href="#" class="bg-primary text-white fa fa-facebook"></a>
-                    <a href="#" class="bg-info text-white fa fa-twitter"></a>
-                    <a href="#" class="bg-danger text-white fa fa-google"></a>
-                    <a href="#" class="bg-primary text-white fa fa-linkedin"></a></div>
+                    <div class="row d-flex justify-content-center"><p
+                            class="card-text text-uppercase font-weight-bold text-light text-center">Anton Petrov</p></div>
+                    <div class="row d-flex justify-content-center"><p class="card-text text-center text-success">General
+                        manager</p></div>
+                    <div class="row mt-3 card-group d-flex justify-content-around mx-0 border-0 rounded-circle">
+                        <a href="#"><i class="fa fa-facebook text-white bg-primary icon fb-icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-twitter text-white bg-info icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-linkedin text-white bg-primary icon border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-google-plus text-white bg-danger icon google-icon border-0 rounded-circle"></i> </a>
+</div>
                 </div>
             </div>
 
-            <div class="card teams-card col-md-3 mr-3 mb-2 border-0" style="width: 18rem;">
+            <div class="card teams-card col-12 col-md-3 mr-sm-2 mb-2 border-0 pb-4" style="width: 18rem;">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
                                                                           src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Kirl Donchev</p></div>
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">Design Master</p></div>
-                    <div class="row mt-3 card-group"> <a href="#" class="col-md-3 bg-primary text-white fa fa-facebook"></a>
-                        <a href="#" class="col-md-3 bg-info text-white fa fa-twitter"></a>
-                        <a href="#" class="col-md-3 bg-danger text-white fa fa-google"></a>
-                        <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
+                    <div class="row d-flex justify-content-center"><p
+                            class="card-text text-uppercase font-weight-bold text-light text-center">Kirl Donchev</p></div>
+                    <div class="row d-flex justify-content-center"><p class="card-text text-center text-success">Design
+                        Master</p></div>
+                    <div class="row mt-3 card-group justify-content-around mx-0">
+                        <a href="#"><i class="fa fa-facebook text-white bg-primary icon fb-icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-twitter text-white bg-info icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-linkedin text-white bg-primary icon border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-google-plus text-white bg-danger icon google-icon border-0 rounded-circle"></i> </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card teams-card col-md-3 mr-3 mb-2 border-0" style="width: 18rem;">
+            <div class="card teams-card col-md-3 col-12 mr-sm-2 pb-4 mb-2 border-0" style="width: 18rem;">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
                                                                           src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Ilian Bonev</p></div>
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">Developer Ninja</p></div>
-                    <div class="row mt-3 card-group"> <a href="#" class="col-md-3 bg-primary text-white fa fa-facebook"></a>
-                        <a href="#" class="col-md-3 bg-info text-white fa fa-twitter"></a>
-                        <a href="#" class="col-md-3 bg-danger text-white fa fa-google"></a>
-                        <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
+                    <div class="row d-flex justify-content-center"><p
+                            class="card-text text-uppercase font-weight-bold text-light text-center">Ilian Bonev</p></div>
+                    <div class="row d-flex justify-content-center"><p class="card-text text-center text-success">
+                        Developer Ninja</p></div>
+                    <div class="row mt-3 card-group justify-content-around mx-0">
+                        <a href="#"><i class="fa fa-facebook text-white bg-primary icon fb-icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-twitter text-white bg-info icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-linkedin text-white bg-primary icon border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-google-plus text-white bg-danger icon google-icon border-0 rounded-circle"></i> </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="card teams-card col-md mb-2 border-0" style="width: 18rem;">
+            <div class="card teams-card col-12 col-md mb-2 pb-4 border-0" style="width: 18rem;">
                 <div class="d-flex justify-content-center mt-4 mb-2"><img class="card-img-top user-img "
                                                                           src="img/User.png" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-uppercase font-weight-bold text-light">Doni Stamov</p></div>
-                    <div class="row d-flex justify-content-center"> <p class="card-text text-center text-success">SEO guru</p></div>
-                    <div class="row mt-3 card-group"> <a href="#" class="col-md-3 bg-primary text-white fa fa-facebook"></a>
-                        <a href="#" class="col-md-3 bg-info text-white fa fa-twitter"></a>
-                        <a href="#" class="col-md-3 bg-danger text-white fa fa-google"></a>
-                        <a href="#" class="col-md bg-primary text-white fa fa-linkedin"></a></div>
+                    <div class="row d-flex justify-content-center"><p
+                            class="card-text text-uppercase font-weight-bold text-light text-center">Doni Stamov</p></div>
+                    <div class="row d-flex justify-content-center"><p class="card-text text-center text-success">SEO
+                        guru</p></div>
+                    <div class="row mt-3 card-group justify-content-around mx-0">
+                        <a href="#"><i class="fa fa-facebook text-white bg-primary icon fb-icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-twitter text-white bg-info icon mb-sm-2 border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-linkedin text-white bg-primary icon border-0 rounded-circle"></i> </a>
+                        <a href="#"><i class="fa fa-google-plus text-white bg-danger icon google-icon border-0 rounded-circle"></i> </a>
+                    </div>
                 </div>
             </div>
         </div> <!--teams row uzdarymas-->
-</div> <!--teams conteinerio uzdarymas-->
+    </div> <!--teams conteinerio uzdarymas-->
 </div><!--viso about uzdarymas-->
 <!--Work-->
 <div class="container work">
-    <div class="row text-center">
-        <div class="col-12 my-5 mb-5">
-            <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">Our Work</h1>
-            <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 mt-5 mb-3">
+                <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">Our Work</h1>
+                <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+            </div>
         </div>
     </div>
     <!--Portfolio-->
-    <div class="container">
 
-        <ul class="list-inline row">
-            <li class="list-inline-item col-md">Portfolio</li>
-            <li class="list-inline-item portfolio-font-size col-md-1 ">All</li>
-            <li class="list-inline-item portfolio-font-size col-md-2">Photography</li>
-            <li class="list-inline-item portfolio-font-size col-md-2">Logo design</li>
-            <li class="list-inline-item portfolio-font-size col-md-2">Web design</li>
-        </ul>
+    <div class="container d-none d-sm-none d-md-block border-top border-bottom border-success mb-4 py-2">
+        <nav class="row navbar navbar-expand-md navbar-light bg-transparent">
 
+            <a class="col-md-3 nav-link text-white font-weight-light text-uppercase font-weight-bold"
+               href="#">Portfolio</a>
+            <div class="col-md-9 collapse navbar-collapse d-flex justify-content-end">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white font-weight-light" href="#">All</a>
+                    <a class="nav-link text-white font-weight-light" href="#">Photography</a>
+                    <a class="nav-link text-white font-weight-light" href="#">Logo design</a>
+                    <a class="nav-link text-white font-weight-light" href="#">Web design</a>
+                </div>
+            </div>
+
+        </nav>
     </div>
 
     <!--Gallery cards-->
     <div class="container">
-    <div class="row card-group">
-        <div class="card col-md-3 mr-3 p-0 border-0 rounded">
-            <img class="card-img-top fotke" src="img/work1.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+        <div class="row card-group mx-1">
+            <div class="card card-gallery col-md-3 mr-sm-2 p-0 border-0 rounded">
+                <img class="card-img-top fotke" src="img/work1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">Aenean a
+                        elit</h5>
+                </div>
+            </div>
+            <div class="card card-gallery col-md-3 mr-sm-2 p-0 border-0 rounded">
+                <img class="card-img-top" src="img/work2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">aliquam</h5>
+                </div>
+            </div>
+            <div class="card card-gallery col-md-3 mr-sm-2 p-0 border-0 rounded">
+                <img class="card-img-top" src="img/work3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">suspendisse
+                        libero</h5>
+                </div>
+            </div>
+            <div class="card card-gallery col-md p-0 border-0 rounded">
+                <img class="card-img-top" src="img/work4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">maecenas
+                        fringilla</h5>
+                </div>
             </div>
         </div>
-        <div class="card col-md-3 mr-3 p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work2.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-        </div>
-        <div class="card col-md-3 mr-3 p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work3.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-        </div>
-        <div class="card col-md p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work4.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-        </div>
-    </div>
 
-    <div class="row card-group mt-3">
-        <div class="card col-md-3 mr-3 mb-2 p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work5.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+        <div class="row card-group mt-md-3 mx-1 pb-5">
+            <div class="card card-gallery col-md-3 mr-md-2 p-0 border-0 rounded d-none d-sm-none d-md-block">
+                <img class="card-img-top" src="img/work5.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">donec
+                        vehicula</h5>
+                </div>
+            </div>
+            <div class="card card-gallery col-md-3 mr-md-2 p-0 border-0 rounded d-none d-sm-none d-md-block">
+                <img class="card-img-top" src="img/work6.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">ut et
+                        sapien</h5>
+                </div>
+            </div>
+            <div class="card card-gallery col-md-3 mr-md-2 p-0 border-0 rounded d-none d-sm-none d-md-block">
+                <img class="card-img-top" src="img/work7.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">Quis
+                        malesuada</h5>
+                </div>
+            </div>
+            <div class="card card-gallery col-md p-0 border-0 rounded d-none d-sm-none d-md-block">
+                <img class="card-img-top" src="img/work8.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase text-secondary text-center font-weight-normal">vestibulum
+                        ante</h5>
+                </div>
             </div>
         </div>
-        <div class="card col-md-3 mr-3 mb-2 p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work6.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-        </div>
-        <div class="card col-md-3 mr-3 mb-2 p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work7.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-        </div>
-        <div class="card col-md mb-2 p-0 border-0 rounded">
-            <img class="card-img-top" src="img/work8.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-            </div>
-        </div>
-    </div>
     </div><!--gallery cards container uzdarymas-->
 </div><!--viso work uzdarymas-->
 <!--Contacts-->
-<div class="contacts">
+
+<div class="container contacts">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 mt-5 mb-3">
+                <h1 class="display-4 pt-5 mb-2 text-white text-uppercase">contact us</h1>
+                <p class="about-p-small text-white font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-6">
+                <h4 class="text-white font-weight-light ">Adress</h4>
+            </div>
+            <div class="col-md-6">
+                <h4 class="text-white font-weight-light d-none d-sm-none d-md-block">Ask a question</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md adresai ml-3">
+                        <div class="row d-block">
+                            <p class="mb-0 text-secondary">Acrostia</p>
+                            <p class="text-white">E-89, Sector-63, Noida-201301, U.P</p>
+                        </div>
+                        <div class="row d-block">
+                            <p class="mb-0 text-secondary">Phone: <span class="ml-2 text-white">+91 52585525</span></p>
+                            <p class="text-secondary">Email: <span class="ml-2 text-white">info@hgvasnnok.com</span></p>
+                        </div>
+
+                    </div> <!--columo uzdarymas adresu-->
+
+                    <div id="map-container-google-1" class="col-md-6 z-depth-1-half map-container mb-1">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0"
+                                style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                </div> <!--uzdarymas eiles po zemelapio-->
+            </div> <!--uzdarymas columo pries forma-->
+            <div class="col-md-6">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="contact-fonas form-control border-0 mb-1" placeholder="First name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="contact-fonas form-control border-0" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-12">
+                            <textarea class="contact-fonas form-control border-0" id="Textarea1" placeholder="Your question" rows="4" required></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> <!-- uzdarymas antros eiles visos su zemelap ir forma-->
+        <div class="row d-flex justify-content-md-end justify-content-center mt-3 mr-5 pb-5 mb-4">
+            <input class="btn btn-danger btn-lg btn-send w-25" type="submit" value="SEND">
+        </div>
+
+    </div>
+        <div class="container-fluid contact-fonas d-flex justify-content-around py-4">
+     <a href="#"><i class="fa fa-facebook text-white icon fb-icon border-0 rounded-circle"></i> </a>
+            <a href="#"><i class="fa fa-twitter text-white icon border-0 rounded-circle"></i> </a>
+            <a href="#"><i class="fa fa-instagram text-white icon border-0 rounded-circle"></i> </a>
+            <a href="#"><i class="fa fa-google-plus text-white icon google-icon border-0 rounded-circle"></i> </a>
+        </div>
+
 </div>
 <footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
